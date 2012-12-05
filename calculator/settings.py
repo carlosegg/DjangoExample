@@ -160,5 +160,5 @@ NOSE_ARGS = [
             '--cov-report=xml',
             '--cov-config=' + path.join(CUR_DIR, '../test_config/coveragerc'),
             '--with-xunit',
-            '--xunit-file=./target/nosetests.xml'
+            '--xunit-file=./target/surefire-reports/TEST-nosetests.xml'
             ]

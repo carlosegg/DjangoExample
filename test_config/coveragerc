@@ -23,9 +23,9 @@ exclude_lines =
 ignore_errors = True
 
 [html]
-directory = ./target/coverage
+directory = ./target/site/cobertura/coverage
 
 [xml]
-output = ./target/coverage.xml
+output = ./target/site/cobertura/coverage.xml
 
 
